@@ -83,7 +83,6 @@ src/
   project_utils.py
 README.md
 requirements.txt
-.gitignore
 ```
 
 ## Saved artifacts
