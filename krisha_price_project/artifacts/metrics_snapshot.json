@@ -1,0 +1,42 @@
+{
+  "selected_model_by_cv": "TunedXGBoost",
+  "tuned_cv_results": [
+    {
+      "model": "TunedXGBoost",
+      "cv_rmse_mean": 25019940.456576854,
+      "best_params": {
+        "model__regressor__colsample_bytree": 0.9976634677873653,
+        "model__regressor__learning_rate": 0.06046777723727943,
+        "model__regressor__max_depth": 4,
+        "model__regressor__min_child_weight": 3.6237821581611893,
+        "model__regressor__n_estimators": 485,
+        "model__regressor__reg_alpha": 1.304103694341302e-05,
+        "model__regressor__reg_lambda": 1.3131565890620174,
+        "model__regressor__subsample": 0.8499652429288138
+      }
+    },
+    {
+      "model": "TunedRidge",
+      "cv_rmse_mean": 25397438.440498795,
+      "best_params": {
+        "model__regressor__alpha": 4.5705630998014515
+      }
+    }
+  ],
+  "test_results": [
+    {
+      "model": "TunedXGBoost",
+      "RMSE": 15243830.671686519,
+      "MAE": 8712290.584745763,
+      "MAPE": 0.16413711510982115,
+      "R2": 0.8159955179135763
+    },
+    {
+      "model": "TunedRidge",
+      "RMSE": 15876077.652463596,
+      "MAE": 9479250.551812574,
+      "MAPE": 0.176984879877296,
+      "R2": 0.8004155972080088
+    }
+  ]
+}

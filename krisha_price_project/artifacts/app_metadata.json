@@ -1,0 +1,76 @@
+{
+  "raw_data_file_expected": "data/krisha_data.csv",
+  "feature_columns_raw": [
+    "district",
+    "tip_doma",
+    "jk",
+    "year",
+    "floor",
+    "area",
+    "toilet",
+    "parking",
+    "status",
+    "num_rooms"
+  ],
+  "district_options": [
+    "Алматы",
+    "Байконур",
+    "Есиль",
+    "Нура",
+    "Сарайшык",
+    "Сарыарка"
+  ],
+  "tip_doma_options": [
+    "No data",
+    "иной",
+    "кирпичный",
+    "монолитный",
+    "панельный"
+  ],
+  "toilet_options": [
+    "2 с/у и более",
+    "No data",
+    "нет",
+    "раздельный",
+    "совмещенный"
+  ],
+  "parking_options": [
+    "No data",
+    "паркинг",
+    "рядом охраняемая стоянка"
+  ],
+  "status_options": [
+    "No data",
+    "не новый, но аккуратный ремонт",
+    "свежий ремонт",
+    "свободная планировка",
+    "требует ремонта",
+    "черновая отделка"
+  ],
+  "example_jk_values": [
+    "No data",
+    "Хайвил Астана",
+    "Respublika",
+    "Delta",
+    "Rio de Janeiro",
+    "Sat City",
+    "Baidaulet",
+    "Nova City",
+    "Tasty",
+    "Алтын Саулет",
+    "Eco Park",
+    "TAMASHA"
+  ],
+  "training_rows_after_cleaning": 2357,
+  "model_family": "XGBRegressor with a log-transformed target and preprocessing pipeline",
+  "selected_model_params": {
+    "colsample_bytree": 0.9976634677873653,
+    "learning_rate": 0.06046777723727943,
+    "max_depth": 4,
+    "min_child_weight": 3.6237821581611893,
+    "n_estimators": 485,
+    "reg_alpha": 1.304103694341302e-05,
+    "reg_lambda": 1.3131565890620174,
+    "subsample": 0.8499652429288138
+  }
+}
